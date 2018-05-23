@@ -15,7 +15,7 @@ Usage: jp.exe [-D] &lt;filename> &lt;operation> ...
 Example:
         $ echo '{"items": [{"title": "tall tales", "author": "tim"},\
                            {"title": "afterwords", "author": "bob"}]}' | \
-                jp.exe - foreach items if title ~= "^[aA].*" list author title
+          jp.exe - foreach items if title ~= "^[aA].*" list author title
 Output:
         bob afterwords
 </pre>
